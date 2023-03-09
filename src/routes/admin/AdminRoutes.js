@@ -7,7 +7,7 @@ const ActiveJobs = lazy(() => import("../../views/activeJobs/ActiveJobs"));
 const DraftJobs = lazy(() => import("../../views/draftjobs/DraftJobs"));
 const ExpiredJobs = lazy(() => import("../../views/expiredJobs/ExpiredJobs"));
 
-export default [
+const AdminRoutes = [
   {
     id: 1,
     label: "Active Jobs (0)",
@@ -30,3 +30,5 @@ export default [
     component: <ExpiredJobs />,
   },
 ];
+
+export default AdminRoutes;

@@ -1,4 +1,4 @@
-export default [
+const expiredJobsData = [
   {
     id: 1,
     jobTitile: "Property Manager",
@@ -16,7 +16,6 @@ export default [
     rePost: "Re-post this job",
     jobDesc: "job description",
   },
-  ,
   {
     id: 2,
     jobTitile: "Assistant Property Manager",
@@ -51,7 +50,6 @@ export default [
     rePost: "Re-post this job",
     jobDesc: "job description",
   },
-  ,
   {
     id: 4,
     jobTitile: "Junior developer",
@@ -86,7 +84,6 @@ export default [
     rePost: "Re-post this job",
     jobDesc: "job description",
   },
-  ,
   {
     id: 6,
     jobTitile: "Supervisor",
@@ -121,7 +118,6 @@ export default [
     rePost: "Re-post this job",
     jobDesc: "job description",
   },
-  ,
   {
     id: 8,
     jobTitile: "Assistant Property Manager",
@@ -157,3 +153,5 @@ export default [
     jobDesc: "job description",
   },
 ];
+
+export default expiredJobsData;
